@@ -31,6 +31,5 @@ social:
   - title: linkedin
     url: 
 
-page:
-  -title: Title
-   subtitle: Subtitle
+page_title: Title
+page_subtitle: Subtitle
