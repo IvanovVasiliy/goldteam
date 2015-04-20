@@ -12,7 +12,7 @@ $(function () {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function () {
@@ -30,3 +30,12 @@ $('div.modal').on('show.bs.modal', function () {
     }
 });
 
+$('#video_b').click(function (){
+    var password_main = '1234',
+        password = $('#video').text;
+    alert(password);
+    if(password === password_main){
+        $('#myModal > .modal-body').html($('<a>')
+            .attr({href: 'https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E'}));
+    }
+});
