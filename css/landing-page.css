@@ -32,7 +32,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #ffffff;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center top;
     background-size: cover;
 }
 
