@@ -36,7 +36,7 @@ $('#video_b').click(function (){
     alert(password);
     if(password === password_main){
         alert('OK');
-        alert($('#myModal > .modal-body'));
+        console.log($('#myModal > .modal-body'));
         $('#myModal > .modal-body').html(
             '<a href="https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E">Go</a>'
         );
