@@ -35,7 +35,8 @@ $('#video_b').click(function (){
         password = $('#video').val();
     alert(password);
     if(password === password_main){
-        $('#myModal > .modal-body').html($('<a>')
+        alert('OK');
+        $('#myModal.modal-body').html($('<a>')
             .attr({href: 'https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E'}));
     }
 });
