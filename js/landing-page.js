@@ -35,7 +35,7 @@ $('#video_b').click(function (){
         password = $('#video').val();
     if(password.toLowerCase() === password_main){
         window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
-        $('div.modal').modal('hide');
+        $('div.modal').fadeOut();
     }
     $('#video').val('')
 });
