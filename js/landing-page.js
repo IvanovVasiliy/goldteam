@@ -33,7 +33,6 @@ $('div.modal').on('show.bs.modal', function () {
 $('#video_b').click(function (){
     var password_main = '1234',
         password = $('#video').val();
-    alert(password);
     if(password === password_main){
         window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
         $('button.close').click();
