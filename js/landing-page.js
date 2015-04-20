@@ -38,4 +38,5 @@ $('#video_b').click(function (){
         window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
         $('button.close').click();
     }
+    password.val('')
 });
