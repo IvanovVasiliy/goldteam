@@ -37,8 +37,7 @@ $('#video_b').click(function (){
     if(password === password_main){
         alert('OK');
         console.log($('#myModal > .modal-body'));
-        $('<a href="https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E" target="_blank" rel="external">Go</a>')
-            .fancybox().trigger('click');
+        window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
         $('div.modal-body').html(
             '<a href="https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E" target="_blank">Go</a>'
         );
