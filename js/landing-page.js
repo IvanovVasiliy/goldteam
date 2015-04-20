@@ -32,7 +32,7 @@ $('div.modal').on('show.bs.modal', function () {
 
 $('#video_b').click(function (){
     var password_main = '1234',
-        password = $('#video').text;
+        password = $('#video').val();
     alert(password);
     if(password === password_main){
         $('#myModal > .modal-body').html($('<a>')
