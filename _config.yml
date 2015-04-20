@@ -24,9 +24,12 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: vk
+  - brand: vk
+    title: VK
     url: http://vk.com/dogvasiliy
-  - title: vk
+  - brand: vk
+    title: VK
     url: http://vk.com/internationalcompany
-  - title: Регистрация в проекте
+  - brand: rocket
+    title: Регистрация в проекте
     url: http://qmatrix.pro/793708/
