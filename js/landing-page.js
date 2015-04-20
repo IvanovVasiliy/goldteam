@@ -31,11 +31,11 @@ $('div.modal').on('show.bs.modal', function () {
 });
 
 $('#video_b').click(function (){
-    var password_main = '1234',
+    var password_main = 'упорство',
         password = $('#video').val();
-    if(password === password_main){
+    if(password.toLowerCase() === password_main){
         window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
-        $('button.close').click();
+        $('div.modal').modal('hide');
     }
-    password.val('')
+    $('#video').val('')
 });
