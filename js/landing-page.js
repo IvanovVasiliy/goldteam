@@ -35,11 +35,7 @@ $('#video_b').click(function (){
         password = $('#video').val();
     alert(password);
     if(password === password_main){
-        alert('OK');
-        console.log($('#myModal > .modal-body'));
         window.open('https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E');
-        $('div.modal-body').html(
-            '<a href="https://www.youtube.com/playlist?list=PLda-1MISV3JoswP5AmTPTMR_oGSNG7X5E" target="_blank">Go</a>'
-        );
+        $('button.close').click();
     }
 });
